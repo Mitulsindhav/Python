@@ -1,0 +1,43 @@
+the main object orinted consepts ?
+
+
+class:
+object:
+inheritance 
+polymorphisam 
+abstraction 
+encaptulation
+
+
+(1) class 
+-> class is a group of diffrent types of variables and functions.
+
+(2) Object 
+-> it is an instance of class 
+
+(3) inheritance 
+-> the object of one class can acvide the propertis of object another class is called in inheritance .
+-> ther are mainly five types of available of inheritance.
+1.single 
+2.multilevel
+3.multiple.
+4.hirarcy.
+5.hybrid.
+
+inheritance mainly use the reusablity 
+
+
+
+polymorphism 
+-> one name Multiple form 
+
+
+Exception :
+-> Exception is an ab normal confition an 
+
+
+
+Abstract class :
+-> ther is no specific in declare class there is module given nand abc to declare class as abstract by inherit that class you can not of abstract class 
+in abstract class you can create an abstract method using abstarct method anotation.
+

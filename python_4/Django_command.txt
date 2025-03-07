@@ -1,0 +1,70 @@
+* Django Command 
+
+vertual enveronment 
+--> python -m venv myvenv
+
+* Activate server 
+.\myvenv\Scripts\activate
+
+
+*Deactivate server 
+--> Short commond 
+- ctrl + c press 
+
+--> .\myvenv\Scripts\deactivate.bat
+
+* install Django 
+--> pip install django
+
+* admin
+--> django-project startproject mysite .
+
+
+--> space . no mining thay ke curent file nu location apva mate .
+
+* migrate 
+-> migrate thi by defualt table create kare .
+
+--> python .\manage.py migrate 
+
+
+** Admin user create karva mate .
+
+--> python .\manage.py createsuperuser
+
+
+** Django work to MVT (modals views Templetes).
+
+
+
+{% %} -> Django Exprestion -> jimja code kevay ane 
+
+{% block content %} -> open karu hoy ane close karvanu 
+
+{% endblock %}
+ 
+{% extends 'header.html} 
+
+
+
+
+form using 
+
+POST method :
+
+{%csrf_token %} -> form ne koi unothorige access na kare na mate use thay se .
+
+** migration 
+
+-> python .\manage.py makemigrations 
+
+=-> last time migrate kariya pasi te change kari ne script banave se table banavtu nathi . 
+
+** makemigration : in create script but not table.
+
+--> script bani jay pasi migrate apvanu compalsary .
+
+python .\manage.py migrate
+
+
+ORm : OBJECT RELETIONAL MAPING  

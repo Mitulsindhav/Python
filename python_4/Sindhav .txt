@@ -1,0 +1,4 @@
+**************************************************
+ You Account Is Opened  with 10000Rs.
+ Your Account Is Credited with 3000Rs.
+ Your Account Is Debited with 1000Rs.
